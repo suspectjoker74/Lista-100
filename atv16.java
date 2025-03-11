@@ -13,14 +13,12 @@ public class atv16 {
         System.out.println("A quantos anos voce fuma?");
         int anos = s.nextInt();
 
-        int diasFumados;
-        if (anos%4 == 0) diasFumados = (anos*365) + (anos/4); 
-        else diasFumados = (anos*365);
+        int dias = (anos*365);
 
-        int cigarrosFumados = cgrrDia*diasFumados;
+        int cigarros = cgrrDia*dias;
 
-        System.out.println(diasFumados);
-        System.out.println(cigarrosFumados);
+        System.out.println(dias);
+        System.out.println(cigarros);
         
 
         s.close();
