@@ -8,7 +8,7 @@ public class atv14 {
         double vlrDia = 90;
         double vlrKm = 0.20;
 
-        // int propositalmente, quem insere deveria arredondar para cima
+       
         System.out.println("Quantos dias ficou com o carro?");
         int dias = s.nextInt();
         System.out.println("Quantos km rodou com o carro?");
