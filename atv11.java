@@ -4,7 +4,7 @@ public class atv11 {
     public static void main(String[] args) {
         
         Scanner s = new Scanner(System.in);
-        System.out.println("Calculadora de bhaskara!\n Insira o valor de A, B e C. Respectivamente.");
+        System.out.println("Para calcular o delta\n Insira o valor de A, B e C. Respectivamente.");
 
         double numA = s.nextFloat();
         double numB = s.nextFloat();
