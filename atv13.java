@@ -7,12 +7,7 @@ public class atv13 {
         System.out.println("Insira valor do salário:");
         double salario = s.nextFloat();
         
-        System.out.println("Insira valor da porcentagem aumento:");
-        double aumento = s.nextFloat();
-
-        aumento = Math.abs(((aumento-100)/100)+1);
-
-        System.out.println("Preco final: R$" + salario*(aumento+1) );
+        System.out.println("Preco final: R$" + (salario  * 1.15));
 
         s.close();
     }
