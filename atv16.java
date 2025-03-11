@@ -5,7 +5,7 @@ public class atv16 {
         
         Scanner s = new Scanner(System.in);
 
-        int mPC = 10; // minutes per cigarrete xD
+        int mPC = 10; 
 
         System.out.println("Quantos cigarros voce fuma por dia?");
         int cgrrDia = s.nextInt();
@@ -14,7 +14,7 @@ public class atv16 {
         int anos = s.nextInt();
 
         int diasFumados;
-        if (anos%4 == 0) diasFumados = (anos*365) + (anos/4); // considerando anos bissextos em média
+        if (anos%4 == 0) diasFumados = (anos*365) + (anos/4); 
         else diasFumados = (anos*365);
 
         int cigarrosFumados = cgrrDia*diasFumados;
